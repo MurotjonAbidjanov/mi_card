@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 90,
-                  backgroundImage: AssetImage('images/lx570.jpg'),
+                  backgroundImage: AssetImage('assets/images/lx570.jpg'),
                 ),
                 Text(
                   'Murotjon Abitjanov',
@@ -67,7 +67,11 @@ class MyApp extends StatelessWidget {
                     ),
                     title: Text(
                       'murotzhonabidzanov@gmail.com',
-                      style: TextStyle(color: Colors.teal[900], fontSize: 20),
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Colors.teal[900],
+                        fontSize: 18.21,
+                      ),
                     ),
                   ),
                 )
